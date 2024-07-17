@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>CSS3 Animation</title>
+        <style>
+            .Ram{
+                margin: 100px; width: 200px; height: 300px;
+                background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn1W2ZKrl436ytifsa12cXcgYRf7VO-Ai81Q&s")no-repeat; position: relative;
+                animation: repeatit 10s linear 0s infinite alternate;
+            }
+            @keyframes repeatit {
+                from {left :0;}
+                to{left: 100%;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Ram"></div>
+    </body>
+</html>
